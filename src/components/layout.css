@@ -10,6 +10,11 @@ p {
     color: #424242
 }
 
+p::selection, h1::selection, a::selection, span::selection  {
+    background: #1988;
+    color: white;
+}
+
 a {
     text-decoration: none;
     border-bottom: 2px solid #424242;
@@ -42,7 +47,7 @@ a:hover {
 
 @media (max-width: 748px) {
     .layout {
-      margin: 10%;
+        margin: 10%;
     }
     h1 {
         font-size: 1.8em;
