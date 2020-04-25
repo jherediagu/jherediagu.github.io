@@ -15,7 +15,7 @@ const Layout = ({ children }) => (
       <main>{children}</main>
       <footer>
         <hr></hr>
-        <span>{`< />`} code is an art.</span>
+        <span>{`< />`} code is art.</span>
       </footer>
     </div>
   </Fragment>
