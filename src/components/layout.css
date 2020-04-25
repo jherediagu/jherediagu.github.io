@@ -33,6 +33,7 @@ span {
 p::selection,
 h1::selection,
 a::selection,
+hr::selection,
 span::selection {
     background: #1988;
     color: white;
